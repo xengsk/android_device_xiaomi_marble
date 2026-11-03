@@ -61,3 +61,6 @@ $(call soong_config_set_bool,qti_vibrator,use_effect_stream,true)
 
 # MIUI Camera
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-marble/device.mk)
+
+# Lineage framework compatibility matrix
+PRODUCT_PACKAGES += framework_compatibility_matrix.lineage.xml
