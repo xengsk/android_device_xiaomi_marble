@@ -27,4 +27,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 TARGET_SCREEN_DENSITY := 440
 
 # MIUI Camera
--include device/xiaomi/miuicamera-cupid/BoardConfig.mk
+-include device/xiaomi/miuicamera-marble/BoardConfig.mk
