@@ -18,6 +18,9 @@ DEVICE_PATH := device/xiaomi/marble
 # Assert
 TARGET_OTA_ASSERT_DEVICE := marble,marblein
 
+# OTA boot variables
+BOOT_VAR_OTA_CONFIG := $(DEVICE_PATH)/ota_boot_variables.txt
+
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
